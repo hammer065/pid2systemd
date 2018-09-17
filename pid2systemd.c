@@ -5,8 +5,8 @@
 
 int main(int argc, char *argv[])
 {
-  const char const *suffix = ".service";
-  const char const suffixLen = strlen(suffix);
+  const char *suffix = ".service";
+  const char suffixLen = strlen(suffix);
   char onlyServices = (argc > 1 && strcmp(argv[1], "-s") == 0);
   char *name;
   int pid = 0, len = 0;
